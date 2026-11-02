@@ -1,0 +1,13 @@
+User-agent: *
+Disallow: /blog/wp-admin/
+Allow: /blog/wp-admin/admin-ajax.php
+
+# START YOAST BLOCK
+# ---------------------------
+User-agent: *
+Disallow:
+
+Sitemap: https://caaft.com/blog/sitemap_index.xml
+LLMS: https://caaft.com/blog/llms.txt
+# ---------------------------
+# END YOAST BLOCK
